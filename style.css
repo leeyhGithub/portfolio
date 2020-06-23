@@ -397,3 +397,46 @@ p {
   margin-top: 8px;
   background-color: var(--color-dark-white);
 }
+
+/* Testmonial */
+#testimonials {
+  background-color: var(--color-light-white);
+}
+
+.testimonials {
+  margin: 40px;
+}
+
+.testimonial {
+  display: flex;
+  margin: 32px 0;
+}
+
+.testimonial__avartar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.testimonial__avartar:nth-child(odd) {
+  /* 홀수일때 */
+  margin-right: 40px;
+}
+
+.testimonial__avartar:nth-child(even) {
+  /* 짝수일때 */
+  margin-left: 40px;
+}
+
+.testimonial__speech-bubble {
+  padding: 18px;
+  background-color: var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+
+.testimonial__speech-bubble {
+  color: var(--color-light-grey);
+}
+
+.testimonial__speech-bubble a {
+  color: var(--color-pink);
+}
